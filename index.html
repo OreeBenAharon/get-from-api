@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1 class="title">
+            PEXELS API
+        </h1>
+        563492ad6f91700001000001d5b218de203043208f90bcfd643c8be3
+        <div class="body-container">
+            <h3>
+                Search for:
+            </h3>
+            <div class="btns">
+                <form class="categs-form">
+                    <input type="radio" name="categ" value="v1" class="pics-radio"> Pictures
+                    <input type="radio" name="categ" value="videos" class="videos-radio"> Videos
+                    <input type="text" name="categ" value="" class="query">
+                </form>
+                <button  onclick="submit()">Submit</button>
+            </div>
+            <div class="pre-results">
+                <button onclick="change(0)"><h1><<<</h1></button>
+                <!-- <img class="pre-pic" src=""> -->
+                <div class="pre-item">
+                    
+                </div>
+                <button onclick="change(1)"><h1>>>></h1></button>
+            </div>
+            <div class="results" id="oh">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+.result-item{
+    margin: 10px;
+    /* width: 400px;
+    height: 300px; */
+}
+
+*{
+    font-family: "Bona Nova";
+}
+
+.results{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.pre-results{
+    display: none;
+
+}
